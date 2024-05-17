@@ -11,3 +11,9 @@ CursoQSL => cntr
 - Inicio de sesion con SQL se llama S A. SA = Inicio como administrador del servidor. Para ingresar a las bases de datos se deben asignar usuarios y contraseñas a cada base de datos.
 
 - Lenguaje de programacion para la creacion de las basess de datos es el **TRANSACT-SQL ó (T-SQL).**
+
+
+Cuando se escribe codigo, cuando se selecciona una VARIABLE, las que tienen doble @ son variables globales del sistema. 
+comentarios en los codigos se realizan con 2 guiones (--) de una sola linea. 
+Para comentarios de varias lineas se tiene que poner /* */
+Las funciones siempre llevan parentesis.  *Ejemplo:* `SELECT USER_NAME()`
