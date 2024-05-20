@@ -13,9 +13,24 @@
 ***
 - Metodos para ingresar a las bases de datos, Inicios de sesion son de dos formas, windows o QSL. Modo mixto
 - Inicio de sesion con SQL se llama S A. SA = Inicio como administrador del servidor. Para ingresar a las bases de datos se deben asignar usuarios y contraseñas a cada base de datos.
-
+***
 - Lenguaje de programacion para la creacion de las basess de datos es el **TRANSACT-SQL ó (T-SQL).**
+  ## Codigos para usar
+  *Sentencias*
+  1. SELECT (lista de seleccion):
+* `SELECT @@VERSION` --Version del servidor. 
+* `select @@SERVERNAME` --nombre del servidor
+* `select SUSER_NAME()` --Inicio de sesion Esto es una FUNCION DE SQL. 
+* `select USER_NAME()`--Usuario en la base de datos.
+* `select * from sys.sysdatabases` --Busqueda de bases de datos en el sistema.
+* 
+  2. From (table source):
+  
+  3. WHERE
+  4. GROUP BY
+  5. ORDER BY
 
+     
 ***
 Cuando se escribe codigo, cuando se selecciona una VARIABLE, las que tienen doble @ son variables globales del sistema. 
 comentarios en los codigos se realizan con 2 guiones (--) de una sola linea. 
@@ -31,5 +46,5 @@ Base de datos model, es la que utilizamos como plantilla cuando creamos bases de
 ***
 Que es un DBO (dbo)
 Hay uno dbo que es el usuario administrador de la base de datos - 
-y esta el esquema (schema) dbo que no tiene nada que ver con lo de arriba. 
+y esta el esquema (schema) dbo que no tiene nada que ver con lo de arriba. Lo podemos usar en la busqueda de archivos dentro del SSMS
 
