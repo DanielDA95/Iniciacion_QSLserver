@@ -3,8 +3,11 @@
 - Organizacion de los datos dentro de la base de datos, tablas... Tener una base de datos con la minima cantidad de datos repetidos y hacer los datos lo mas dividido posible. 
 - Estructura de tablas. Filas y columnas 
 **CursoQSL => cntr = Curso**
-- Bases de datos relacionales.???? Conjuntos de una o mas tablas, estructuradas en registros. 
-- Almacenamiento de las bases de datos de sql server se guardan en dos archivos. Ej. archivo 1.MDF -- Archvivo_2.LDF
+- Bases de datos relacionales.???? Conjuntos de una o mas tablas, estructuradas en registros.
+  
+- Almacenamiento de las bases de datos de sql server se guardan en dos archivos. Ej. archivo 1.MDF (Archivo principal)-- Archvivo_2.LDF (Registro de transacciones). Podria existir otro tipo de extension que es NDF, y son los archivos secundarios.
+- Archivos de copia de seguridad, con nombre de extension .BAK
+  
 - SISTEMA GESTOR DE BASES DE DATOS (SGBD), Gestionar grandes cantidades de infoformacion.
 
 - Metodos para ingresar a las bases de datos, Inicios de sesion son de dos formas, windows o QSL. Modo mixto
@@ -26,6 +29,6 @@ Base de datos model, es la que utilizamos como plantilla cuando creamos bases de
 
 
 Que es un DBO (dbo)
-Hay uno dbo que es el usuario administrador de la base de datos 
+Hay uno dbo que es el usuario administrador de la base de datos - 
 y esta el esquema (schema) dbo que no tiene nada que ver con lo de arriba. 
 
