@@ -56,3 +56,6 @@ y esta el esquema (schema) dbo que no tiene nada que ver con lo de arriba. Lo po
 - group by
 
 - having: va despues de group by
+
+- https://learn.microsoft.com/es-es/sql/t-sql/functions/datepart-transact-sql?view=sql-server-ver16
+- 
