@@ -48,3 +48,11 @@ Que es un DBO (dbo)
 Hay uno dbo que es el usuario administrador de la base de datos - 
 y esta el esquema (schema) dbo que no tiene nada que ver con lo de arriba. Lo podemos usar en la busqueda de archivos dentro del SSMS
 
+
+
+## Clausulas.
+
+- where: siempre va antes de group byb
+- group by
+
+- having: va despues de group by
