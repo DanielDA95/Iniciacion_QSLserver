@@ -62,9 +62,9 @@ y esta el esquema (schema) dbo que no tiene nada que ver con lo de arriba. Lo po
 ***
 ## Requisitos para relacionar tablas. 
 
-Todas las tablas deben tener algun dato en común para poder relacionarse entre si. O tener una base intermedia donde se tenegan datos de alguna de las otras tablas. 
++ Todas las tablas deben tener algun dato en común para poder relacionarse entre si. O tener una base intermedia donde se tenegan datos de alguna de las otras tablas. 
++ Una de las tablas que intervienen en la relacion deben terner valores unicos y debe estar siempre rellena y no puede tener valores nulos NULL
++ para que QSL sepa que tiene una columna con valores unicos debe estar definda como PRIMARY KEY o clave principal y no admite nulos
++ En cada tabla solamente puede haber UNA clave principal, pero no tiene porque estar formada por 1 sola columna, puede tener varias columnas.
 
-Una de las tablas que intervienen en la relacion deben terner valores unicos y debe estar siempre rellena y no puede tener valores nulos NULL
-
-para que QSL sepa que tiene una columna con valores unicos debe estar definda como PRIMARY KEY o clave principal
-
+**Diagrama de base de datos**
