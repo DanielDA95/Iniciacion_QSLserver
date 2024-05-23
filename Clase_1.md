@@ -73,9 +73,34 @@ y esta el esquema (schema) dbo que no tiene nada que ver con lo de arriba. Lo po
 ## Crear base de datos.
 Para crear la base de datos se necesita por lo menos el nombre, que va a terner la base de datos. 
 
+`CREATE DATABASE ......(Nombre de la BD que queremos)
 
-`Alter view Clientes_Trapagaran`
+**Para modificar una ya creada**
+
+` Alter DATABASE ..... ` //Nombre de base de datos
+` MODIFY FILE ( NAME = 'ACADEMIA', ` -- Nombre de archivo
+               ` SIZE = 13, `               
+             `   FILEGROWTH = 25) `
+
+**Para crear una vista** Seria tipo de una consulta que se hace en una tabla, o BD. Y sirve como un atajo para ver una consulta que necesitariamos ver más frecuentemente
+
+`Create view Clientes_Trapagaran`
+
 `AS`
-`SELECT `
-`FROM`
-`WHERE`
+
+`SELECT ...`
+
+`FROM ...`
+
+`WHERE ....`
+
+**Para modificar una vista**
+`Alter view Clientes_Trapagaran`
+
+`AS`
+
+`SELECT ....`
+
+`FROM .....`
+
+`WHERE ....`
