@@ -68,3 +68,14 @@ y esta el esquema (schema) dbo que no tiene nada que ver con lo de arriba. Lo po
 + En cada tabla solamente puede haber UNA clave principal, pero no tiene porque estar formada por 1 sola columna, puede tener varias columnas.
 
 **Diagrama de base de datos**
+
+
+## Crear base de datos.
+Para crear la base de datos se necesita por lo menos el nombre, que va a terner la base de datos. 
+
+
+`Alter view Clientes_Trapagaran`
+`AS`
+`SELECT `
+`FROM`
+`WHERE`
